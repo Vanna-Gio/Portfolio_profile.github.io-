@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sovanna Ra - UI/UX Designer</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <Style>
+        
+    </Style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">Sovanna
+                    <span>Ra</span>
+                </a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+        </div>
+    </div>
+    <section class="container">
+        <div class="header-text">
+            <p>Apply for position <br><span><strong style="font-size: 1.5rem;">Web developer Internship</strong></span></p>
+            <h1>Dear, I'm <span>Sovanna</span><br>Ra <br>from Kampung Thom</h1>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/Anna ra.jpg" alt="Sovanna Ra">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Aspiring web developer with a solid foundation in front-end and back-end technologies.
+                        Passionate about building user-friendly and visually appealing websites. 
+                        Seeking an internship to leverage my skills in web development and gain hands-on industry experience.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        <p class="tab-links" onclick="opentab('strengths')">Strengths</p>
+                        <p class="tab-links" onclick="opentab('interests')">Interests</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Adobe Potoshop <br>Figma </li>
+                            
+                           
+                            <li><span>Programming Lanuages</span><br>: Visual Basic, HTML, CSS, JavaScript, and frameworks like Bootstrap and jQuery. 
+                                Proficient with Git and GitHub.</li>
+                             <li><span>Database</span><br>: SQL Server, MySQL</li>
+                             <li><span>Software</span><br>: MS FrontPage/Teams/Excel/Word</li>
+                             <li><span>Soft Skills:</span><br>Good Attitude<br>Problem-solving<br>Research<br>Teamwork<br>Communication Good<br>Critical thinking<br>Process Flow<br>Knowledge of Microsoft Office<br>Leadership<br>Time Management</li>
+                            
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Data Entry</li>
+                            <li><span>Software Developer Intern,</span><strong> ACLIDA University of Business | 10 month </strong>
+                                <br>
+                                Developing Html
+                                <br>
+                                CSS, Bootstrap
+                                <br>
+                                Javascript, JQuery
+                                <br>
+                                Git/Git Hub
+                                <br>
+                                UX/UI Design
+                                <br>
+                                C# Programming
+                                <br>
+                                SQL server
+                                <br>
+                                ASP.NET Core (MVC)
+
+
+                        </li>
+                            <li><span>ACLIDA University of Business</span><br>Projects Web Developer
+                            
+                            
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Current</span><br>ACLIDA University of Business</li>
+                            <li>Third-year <strong>Business IT</strong> student with a passion for web development and strong teamwork skills.</li>
+                            <li>
+                                <br>
+                                Relevant Courses and Skills:
+                                <br>
+                                Technical Skills (Focus on web development skills)
+                                <br>
+                                Frontend: HTML, CSS, JavaScript, React, Vue.js
+                                <br>
+                                Backend: Node.js, Express, PHP, Python (Django/Flask)
+                                <br>
+                                Databases: MySQL, PostgreSQL, MongoDB
+                                <br>
+                                Version Control: Git, GitHub
+                                <br>
+                                Tools: VS Code, Postman, Figma
+                                <br>
+                                Other: API Development, Responsive Design, Web Performance Optimization
+                            </li>
+                        </ul>
+                    </div>
+                  
+                    <div class="tab-contents" id="strengths">
+                        <ul>
+                            <li><span>Strengths</span><br>
+                                Curiosity and eagerness to learn new technologies. <br>
+                                Ability to adapt quickly to new tools and environments. <br>
+                                Strong organizational and time-management skills.
+                            </li>
+                            
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="interests">
+                        <ul>
+                            <li><span>Interests</span><br>
+                                
+                                Passionate about front-end development and UX/UI design. <br>
+                                Enjoy solving coding challenges on platforms like LeetCode. <br>
+                                Love collaborating on open-source projects.
+                                
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing web interfaces for your business</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UX/UI</h2>
+                    <p>Designing user-friendly interfaces</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Designing mobile applications</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div class="work-list">
+               
+                <div class="work">
+                    <img src="image/SimCalculator.png" alt="Simple Calculator App">
+                    <div class="layer">
+                        <h3>Simple Calculator App</h3>
+                        <p>How to make a Calculator using HTML, CSS and JavaScript.</p>
+                        <a href="https://vanna-gio.github.io/SimpleCalculator.github.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/Fashion sale page.png" alt="Fashion Sale">
+                    <div class="layer">
+                        <h3>Facshion Sale websites</h3>
+                        <p>My project is an E-commerce website that allows users to browse, add to cart, and purchase products online.
+                        </p>
+                        <a href="https://vanna-gio.github.io/FashionsaleWebsite.github.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/calculator boostrab php.png" alt="Online Shopping App">
+                    <div class="layer">
+                        <h3>Bootstrap Calculator</h3>
+                        <p>A simple calculator built with Bootstrap and PHP.
+                            </p>
+                        <a href="https://github.com/Vanna-Gio/bootstrap-calculator.github.io"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/Bootstrap Cal.png" alt="Simple Calculator App">
+                    <div class="layer">
+                        <h3>Boostrab Calculator</h3>
+                        <p>HTML Bootstrap CSS, Javascript
+                        </p>
+                        <a href="https://vanna-gio.github.io/Calculator-Bootstrap.github.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/portfo.png" alt="Simple Calculator App">
+                    <div class="layer">
+                        <h3>My Portfolio</h3>
+                        <p>My Portfolio developed in HTML Bootstrap CSS, Javascript, Jquery
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/Calculator Bootsrap.png" alt="Simple Calculator App">
+                    <div class="layer">
+                        <h3>Boostrab Calculator</h3>
+                        <p>
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/shoes_sale.png" alt="Fashion Sale">
+                    <div class="layer">
+                        <h3>Nika Sale websites</h3>
+                        <p>My project is an E-commerce website that allows users to browse, add to cart, and purchase products online.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> rasovanna785@gmail.com</p>
+                    <p><i class="fa-solid fa-paper-plane"></i> +885 2901277</p>
+                    <p><i class="fa-solid fa-phone"></i> +885 2901277</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/18oMJ2kkFu/"><i class="fa-brands fa-facebook"></i></a>
+                       
+                        <a href="https://www.facebook.com/share/18oMJ2kkFu/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        
+                        <a href="https://github.com/dashboard"><i class='fa-brands fa-github'></i></a>
+                    </div>
+                    <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©Sovanna. Made with <i class="fa-solid fa-heart"></i> by Sovanna Ra</p>
+        </div>
+    </div>
+
+    <script>
+       // Tab functionality
+       var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        // Side menu functionality
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
